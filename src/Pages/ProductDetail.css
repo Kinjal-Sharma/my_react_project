@@ -1,0 +1,99 @@
+.product-card2 {
+    align-items: center;
+    text-align: center;
+    width: 2100px;
+    height: 2000px;
+    max-width: 2000px;
+    max-height: 2000px;
+    padding-top: 0px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    align-items: flex-start;
+   
+    margin: 40px auto;
+    padding: 24px;
+  
+    border-radius: 12px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 16px;
+}
+
+.product-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    padding-right: 70px;
+    
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    animation: spin 1s linear infinite;
+    color: #007bff;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-page {
+    background-color: white;
+    font-size: x-large;
+    height: 100vh;
+    width: 2100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-view{
+    align-content: center;
+    width:70%;
+    border-right:2px solid #333;
+    align-self: center;
+ 
+    /* background-color: red; */
+}
+.product-details{
+    padding:50px;
+    padding-left: 150px;
+    align-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
